@@ -37,3 +37,36 @@ The **Python Quality Pipeline** automates:
 - Establish a common development standard for all Python scripts
 - Automate code validation, testing, and formatting
 - Enable consistent CI/CD integration across teams (offshore and compliance)
+
+## 📁 Project Structure
+
+```
+.
+├── .github/
+├── .flake8
+├── pyproject.toml
+├── requirements.txt
+├── requirements-dev.txt
+├── .gitignore
+├── README.md
+├── src/
+│   ├── collectors/
+│   │   ├── __init__.py
+│   │   ├── base_collector.py
+│   │   └── coingecko_collector.py
+│   ├── validators/
+│   │   ├── __init__.py
+│   │   └── data_schemas.py (Pydantic models)
+│   ├── processors/
+│   │   ├── __init__.py
+│   │   └── data_processor.py
+│   └── utils/
+│       ├── __init__.py
+│       └── logger.py
+├── tests/
+│   ├── test_collectors.py
+│   └── test_validators.py
+└── data/
+    ├── raw/
+    └── processed/
+```
