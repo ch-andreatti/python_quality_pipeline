@@ -32,4 +32,8 @@ The **Python Quality Pipeline** automates:
 - Enforced conventions (PEP8, typing, formatting)  
 - Clear structure for scalable Data Engineering and Python projects  
 
-## 📂 Project Structure
+## 🧭 Goals
+
+- Establish a common development standard for all Python scripts
+- Automate code validation, testing, and formatting
+- Enable consistent CI/CD integration across teams (offshore and compliance)
