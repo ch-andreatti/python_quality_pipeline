@@ -70,3 +70,7 @@ The **Python Quality Pipeline** automates:
     ├── raw/
     └── processed/
 ```
+
+## Useful links
+
+- [Black](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html)
