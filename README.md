@@ -18,7 +18,7 @@ The **Python Quality Pipeline** automates:
 | Purpose         | Tool                                                                                    | Description                                                                   |
 | --------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
 | Code Style      | [Black](https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html) | Enforces consistent code formatting                                           |
-| Imports         | **Isort**                                                                               | Automatically sorts and organizes imports                                     |
+| Imports         | [isort](https://pycqa.github.io/isort/index.html)                                       | Automatically sorts and organizes imports                                     |
 | Linting         | **Flake8**                                                                              | Detects syntax errors and style issues                                        |
 | Git Hooks       | [pre-commit](https://pre-commit.com/)                                                   | Automates code checks (e.g., linting, formatting) before each commit          |
 | Testing         | **Pytest**                                                                              | Runs automated tests                                                          |
