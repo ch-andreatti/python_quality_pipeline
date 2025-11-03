@@ -1,4 +1,4 @@
-# 🧩 Python Quality Pipeline
+# ⚙️ Python Quality Pipeline
 
 This repository aims to **standardize Python scripts**, **automate code validation**, and **enable continuous integration (CI/CD)** for data and software projects.
 It ensures consistency, readability, and quality across all codebases.
