@@ -13,7 +13,7 @@ The **Python Quality Pipeline** automates:
 - Unit testing and coverage reports
 - Continuous integration through GitHub Actions
 
-## 🧱 Stack
+## 🧪 Features
 
 | Purpose         | Tool                                                                                    | Description                                                                   |
 | --------------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------- |
@@ -26,29 +26,18 @@ The **Python Quality Pipeline** automates:
 | Data Quality    | [Great Expectations](https://greatexpectations.io/)                                     | Validates and documents data pipelines to ensure data quality and consistency |
 | CI/CD           | **GitHub Actions**                                                                      | Runs the entire pipeline automatically on each commit or pull request         |
 
-## 🧪 Features
-
-- Automatic code style checks before merging
-- Static analysis and linting via pre-commit hooks
-- Unit tests triggered in CI/CD pipelines
-- Enforced conventions (PEP8, typing, formatting)
-- Clear structure for scalable Data Engineering and Python projects
-
 ## 🧭 Goals
 
 - Establish a common development standard for all Python scripts
 - Automate code validation, testing, and formatting
-- Enable consistent CI/CD integration across teams (offshore and compliance)
+- Enable consistent CI/CD integration across teams
 
 ## 📁 Project Structure
 
 ```
 .
 ├── .github/
-├── .flake8
-├── pyproject.toml
 ├── requirements.txt
-├── requirements-dev.txt
 ├── .gitignore
 ├── README.md
 ├── src/
