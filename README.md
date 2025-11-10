@@ -41,16 +41,12 @@ The **Python Quality Pipeline** automates:
 ├── .gitignore
 ├── README.md
 ├── src/
-│   ├── collectors/
+│   ├── processors/
 │   │   ├── __init__.py
-│   │   ├── base_collector.py
-│   │   └── coingecko_collector.py
+│   │   └── stage_randomuser.py
 │   ├── validators/
 │   │   ├── __init__.py
 │   │   └── data_schemas.py (Pydantic models)
-│   ├── processors/
-│   │   ├── __init__.py
-│   │   └── data_processor.py
 │   └── utils/
 │       ├── __init__.py
 │       └── logger.py
