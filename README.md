@@ -54,6 +54,6 @@ The **Python Quality Pipeline** automates:
 │   ├── test_collectors.py
 │   └── test_validators.py
 └── data/
-    ├── raw/
+    ├── stage/
     └── processed/
 ```
